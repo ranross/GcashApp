@@ -1,0 +1,30 @@
+# .gitignore for GcashApp
+# -------------------------------------------------------
+# This file tells Git which files/folders to SKIP when saving your
+# project to GitHub. You don't need to do anything with these files -
+# Git just won't upload them.
+
+# Compiled Java files - these get recreated automatically every time
+# you run "javac", so there's no need to save them. Only the .java
+# source files matter for grading.
+bin/
+*.class
+
+# The database file - this gets created automatically the first time
+# you run the program (with the two sample accounts). No need to
+# upload it; anyone who runs the program gets a fresh one.
+gcash.db
+
+# Common IDE clutter (IntelliJ / Eclipse / VS Code project settings)
+# - these are specific to your own computer and not needed by anyone
+# else who opens the project.
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS clutter
+.DS_Store
+Thumbs.db
